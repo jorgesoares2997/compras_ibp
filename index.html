@@ -5,6 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/compras_ibp/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Compras IBP</title>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
     <script type="module" crossorigin src="/compras_ibp/assets/index--SH4EzTN.js"></script>
     <link rel="stylesheet" crossorigin href="/compras_ibp/assets/index-iq2oT099.css">
   </head>
