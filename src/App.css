@@ -2,7 +2,7 @@ body {
   background-color: aliceblue;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -19,12 +19,16 @@ h1{
 .divisoria {
   background-color: #f3f3f3;
   display: flex;
+  justify-content: center;
+
   flex-direction: row;
   border-radius: 20px;
   margin: 100px;
 }
-.dentro{
-  margin-left:50px ;
+
+.dentro {
+  margin-left: 50px;
+
 }
 
 .urgente {
@@ -35,6 +39,7 @@ h1{
   width: 200px;
   padding: 8px;
 }
+
 .mediano {
   background-color: rgb(242, 242, 125);
   color: #333;
@@ -43,6 +48,7 @@ h1{
   width: 200px;
   padding: 8px;
 }
+
 .suave {
   background-color: rgb(104, 148, 230);
   color: #333;
@@ -63,17 +69,32 @@ p {
   font-size: 24px;
 }
 
-@media (max-width: 450px){
- .divisoria{
-  width: 80%;
-  margin:auto;
-  margin-bottom: 50px;
+img {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  margin: auto;
+  padding: 30px;
 
- }
- span{
-  display: none;
- }
 
- 
-  
+}
+
+@media (max-width: 450px) {
+  .divisoria {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+
+  }
+
+  span {
+    display: none;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+
+
 }

@@ -1,4 +1,21 @@
 import "./App.css";
+import di from "../img/di.jpg"
+import baixo from "../img/baixo.jpg"
+import canaleta from "../img/canaleta.jpg"
+import capsula from "../img/capsula.jpg"
+import espuma from "../img/espuma.jpg"
+import headset from "../img/headset.jpg"
+import medusa from "../img/medusa.jpg"
+import pedestal from "../img/pedestal.jpg"
+import tampa from "../img/tampa.jpg"
+import teclado from "../img/teclado.jpg"
+import trincha from "../img/trincha.jpg"
+import violao from "../img/violao.jpg"
+import cabo from "../img/cabo.jpg"
+import caixa from "../img/caixa.jpg"
+import direct from "../img/direct.jpg"
+
+
 
 function App() {
   return (
@@ -9,6 +26,7 @@ function App() {
           {" "}
           <p>
             DI duplo x 2<span>- (Mercado Livre)</span>
+            <img src={di} alt="di" />
             <p>R$ 374,00 (cada)</p>
             <p className="urgente">Urgencia - Alta</p>
             <a
@@ -27,6 +45,7 @@ function App() {
           <p>
             Trincha pequena x 4
             <span> (Limpeza de equipamento) - (Armazem Coral)</span>
+            <img src={trincha} alt="trincha" />
             <p>R$ 5,50 (cada)</p>
             <p className="urgente">Urgencia - Alta</p>
             <a
@@ -46,6 +65,7 @@ function App() {
           <p>
             Microfone headset multibanda
             <span> (Teatro) - (Mercado Livre)</span>
+            <img src={headset} alt="headset" />
             <p> R$ 1.999,00</p>
             <p className="mediano">Urgencia - Media</p>
             <a
@@ -64,6 +84,7 @@ function App() {
           <p>
             Cabo p10 5m x 2 
             <span>- (Templo Anexo)</span>
+            <img src={cabo} alt="cabo" />
             <p> R$ - </p>
             <p className="mediano">Urgencia - Media</p>
             <a className="link" href="#">
@@ -78,6 +99,7 @@ function App() {
           <p>
             Canaleta Pvc x 3
             <span> - (Armazem Coral)</span>
+            <img src={canaleta} alt="canaleta" />
             <p>R$ 69,90 (cada)</p>
             <p className="mediano">Urgencia - Media</p>
             <a
@@ -96,6 +118,7 @@ function App() {
           <p>
             Capa violão
             <span> (Sugestão) - (Mercado Livre)</span>
+            <img src={violao} alt="violao" />
             <p>R$ 129,90</p>
             <p className="mediano">Urgencia Media</p>
             <a
@@ -115,6 +138,7 @@ function App() {
           <p>
             Capa / Case teclado MX61
             <span> - (Mercado livre)</span>
+            <img src={teclado} alt="teclado" />
             <p>R$ 589,00</p>
             <p className="mediano">Urgencia - Media</p>
             <a
@@ -134,6 +158,7 @@ function App() {
           <p>
             Almofadas Akg K72
             <span> - (Mercado livre)</span>
+            <img src={espuma} alt="espuma" />
             <p>R$ 86,90</p>
             <p className="mediano">Urgencia - Media</p>
             <a
@@ -153,6 +178,7 @@ function App() {
           <p>
             Tampa Microfone sem fio Shure 
             <span>- (Mercado Livre)</span>
+            <img src={tampa} alt="tampa" />
             <p>R$ 89,00 </p>
             <p className="suave">Urgencia - Baixa</p>
             <a
@@ -171,6 +197,7 @@ function App() {
           <p>
             Medusa 12 canais 
             <span>(Templo Anexo) - (Mercado Livre)</span>
+            <img src={medusa} alt="medusa" />
             <p>R$ 1.246,55 </p>
             <p className="suave">Urgencia - Baixa</p>
             <a
@@ -189,6 +216,7 @@ function App() {
           <p>
             Globo metálico Microfone sem fio Shure 
             <span>- (Mercado Livre)</span>
+            <img src={capsula} alt="capsula" />
             <p>R$ 119,04 </p>
             <p className="suave">Urgencia - Baixa</p>
             <a
@@ -207,6 +235,7 @@ function App() {
           <p>
             Pedestal de microfone x 3 
             <span>- (Mercado Livre)</span>
+            <img src={pedestal} alt="pedestal" />
             <p>R$ 267,20 </p>
             <p className="suave">Urgencia - Baixa</p>
             <a
@@ -225,6 +254,7 @@ function App() {
           <p>
             Capa contrabaixo 
             <span>- (Mercado Livre)</span>
+            <img src={baixo} alt="baixo" />
             <p>R$ 129,90 </p>
             <p className="suave">Urgencia - Baixa</p>
             <a
@@ -244,6 +274,7 @@ function App() {
           <p>
              Caixa Ativa
             <span>- Eventos - (Assistencia Autorizada)</span>
+            <img src={caixa} alt="caixa" />
             <p>R$ -</p>
             <p className="mediano">Urgencia - Media</p>
             {/* <a
@@ -262,6 +293,7 @@ function App() {
           <p>
             Direct Box prata 
             <span>- (Assistencia Autorizada)</span>
+            <img src={direct} alt="direct" />
             <p>R$ - </p>
             <p className="suave">Urgencia - Baixa</p>
             {/* <a
